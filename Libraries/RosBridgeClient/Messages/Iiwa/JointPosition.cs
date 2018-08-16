@@ -8,7 +8,7 @@ namespace RosSharp.RosBridgeClient.Messages.Iiwa
 		public const string RosMessageName = "iiwa_msgs/JointPosition";
 
 		public Standard.Header header;
-		JointQuantity position;
+		public JointQuantity position;
 
 		public JointPosition()
         {
