@@ -85,6 +85,8 @@
     <Compile Include="Services\Standard\Trigger.cs" />
     <Compile Include="UrdfImporter.cs" />
     <Compile Include="Protocols\WebSocketNetProtocol.cs" />
+    <Compile Include="Messages\Iiwa\JointPosition.cs" />
+    <Compile Include="Messages\Iiwa\JointQuantity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
